@@ -10,6 +10,6 @@ public class HelloController {
     @GetMapping("/greeting")
     public String greeting(Model model) {
         model.addAttribute("message", "BMW M3");
-        return "greeting"; // corresponds to greeting.html
+        return "greeting";
     }
 }
